@@ -18,7 +18,10 @@ quote () {
 	fi
 }
 
+echo "Start collecting quotes, store at '~/.quotes'"
+echo "Ctrl+C to stop"
+
 for (( ; ; ))
 do
-    quote >> quotes.txt
+    quote >> ~/.quotes
 done
