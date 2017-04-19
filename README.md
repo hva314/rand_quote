@@ -15,6 +15,7 @@ sudo apt install locat cowsay
 git clone https://github.com/hva314/rand_quote
 cd rand_quote
 chmod +x quote.py query.sh
+cp quotes.txt ~/.quotes
 ```
 
 put this line at the end of your .bashrc or configure file of current shell you are using
